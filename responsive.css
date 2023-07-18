@@ -1,0 +1,72 @@
+/* media queries for mobile device */
+
+@media screen and (max-width: 576px) {
+
+    .menu-container,
+    .menus,
+    .banner-container,
+    .gamer-container {
+        flex-direction: column;
+    }
+
+    .menu-container,
+    .menus {
+        gap: 30px;
+    }
+    .menu-container {
+        padding: 50px;
+    }
+
+    /* .banner-container {
+        padding: 50px;
+    } */
+
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+
+    .banner-right {
+        width: 80%;
+    }
+
+    .banner-right .banner-img {
+        width: 100%;
+    }
+
+    .banner-left {
+        width: 80%;
+        background-size: cover;
+    }
+
+    .banner-text {
+        margin-left: 0;
+    }
+
+    .gamer-container {
+        padding: 50px;
+    }
+
+    .gamer-img {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .gamer-img img {
+        width: 100%;
+    }
+
+    .gamer-text {
+        width: 100%;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .unleash-text {
+        font-size: 1.5rem;
+        margin-top: 10px;
+    }
+
+
+
+
+}
