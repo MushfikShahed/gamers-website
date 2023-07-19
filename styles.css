@@ -216,6 +216,31 @@ body {
     margin: 15px auto;
 }
 
+.cards .overley {
+    position: relative;
+}
+.card .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.06);
+    opacity: 0;
+    transition: 0.6s;
+    z-index: 1;
+}
+
+.card:hover {
+    opacity: 50;
+}
+
+.content p {
+    font-size: 50px;
+}
+
 /* play games part */
 
 .play-games-container {
@@ -300,13 +325,12 @@ body {
     margin-top: 20px;
 }
 
-/* .footer-icons .fa-brands {
-    width: 60px;
-    height: 60px;
-} */
+.footer-icons .fa-brands {
+    font-size: 2rem;
 
 .footer-description {
     color: rgba(255, 255, 255, 0.60);
     font-size: 1rem;
     font-weight: 500;
+}
 }
