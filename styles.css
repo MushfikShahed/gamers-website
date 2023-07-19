@@ -245,18 +245,20 @@ body {
 .card:hover .content {
     visibility: visible;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 .content p {
     font-size: 1.5rem;
     font-weight: 500;
     color: #FF42A5;
-    padding-top: 10px;
+    padding: 20px;
 }
 
 .content .fa-solid{
     color: #FFF;
-    font-size: 2rem;
+    font-size: 2.3rem;
+    margin-top: 10px;
 }
 
 /* play games part */
