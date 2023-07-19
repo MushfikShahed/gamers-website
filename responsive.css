@@ -2,10 +2,9 @@
 
 @media screen and (max-width: 576px) {
 
-    .menu-container,
+    .container,
     .menus,
-    .banner-container,
-    .gamer-container {
+    .cards {
         flex-direction: column;
     }
 
@@ -13,57 +12,71 @@
     .menus {
         gap: 30px;
     }
-    .menu-container {
-        padding: 50px;
-    }
-
-    /* .banner-container {
-        padding: 50px;
-    } */
 
     .banner-container {
         flex-direction: column-reverse;
     }
 
-    .banner-right {
-        width: 80%;
-    }
-
-    .banner-right .banner-img {
-        width: 100%;
-    }
-
     .banner-left {
-        width: 80%;
-        background-size: cover;
+        width: 100%;
+        background-size: contain;
     }
 
-    .banner-text {
-        margin-left: 0;
-    }
-
-    .gamer-container {
-        padding: 50px;
+    .banner-right img {
+        width: 85%;
+        height: 65%;
+        padding: 50px 28px;
     }
 
     .gamer-img {
-        width: 100%;
-        margin-left: 0;
+        padding: 0;
     }
 
     .gamer-img img {
         width: 100%;
+        padding: 0;
+        margin: auto;
     }
 
     .gamer-text {
-        width: 100%;
+        width: 90%;
+        padding: 0;
         text-align: center;
-        margin-right: 0;
+        margin: auto;
     }
 
     .unleash-text {
         font-size: 1.5rem;
         margin-top: 10px;
+    }
+
+    .f-video-tittle {
+        font-size: 2rem;
+    }
+
+    .card {
+        padding: 20px;
+    }
+
+    .play-games-img .p-games-img2 {
+
+        width: 35%;
+        position: relative;
+        top: -80px;
+        left: 210px;
+
+    }
+
+    .various-games-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .footer-text,
+    .footer-icons,
+    .footer-description {
+        width: 90%;
+        flex-wrap: wrap;
     }
 
 
