@@ -115,6 +115,11 @@
         flex-wrap: wrap;
     }
 
+    .footer-icons {
+        width: 40%;
+        gap: 30px;
+    }
+
     .copy-right-text {
         font-size: 0.8rem;
     }
